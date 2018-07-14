@@ -3,7 +3,7 @@ class Hash
     # code goes here
     array=[]
       
-      self.each do |arr, val|
+      self.each do |k, v|
         if arguments.include?(val)
         array << arr 
         end 
