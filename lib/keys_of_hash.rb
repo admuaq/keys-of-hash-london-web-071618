@@ -3,6 +3,8 @@ class Hash
     # code goes here
     array=[]
       
+      
+        
     array
   end
 end
