@@ -3,7 +3,9 @@ class Hash
     # code goes here
     array=[]
       
-      if arguments
+      self.each do |arr|
+        array << arr 
+      end 
         
     array
   end
