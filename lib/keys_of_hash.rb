@@ -3,7 +3,7 @@ class Hash
     # code goes here
     array=[]
       
-      
+      if arguments
         
     array
   end
