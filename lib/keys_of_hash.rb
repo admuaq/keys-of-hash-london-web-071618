@@ -4,6 +4,11 @@ class Hash
     array=[]
     arguments.each_with_index do |string, index|
       self.each do |animal, area|
-    
+        if location == arguments[index]
+          array << species
+        end
+      end
+    end
+    array
   end
 end
