@@ -4,7 +4,7 @@ class Hash
     array=[]
       
       self.each do |arr, val|
-        if arr.include?(arguments)
+        if arr.include?(val)
         array << arr[0] 
         end 
       end 
