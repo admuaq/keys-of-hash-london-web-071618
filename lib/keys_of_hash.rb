@@ -5,7 +5,7 @@ class Hash
       
       self.each do |arr|
         if arr.include?(arguments)
-        array << arr[1] 
+        array << arr[0] 
         end 
       end 
         
