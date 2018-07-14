@@ -4,8 +4,8 @@ class Hash
     array=[]
       
       self.each do |k, v|
-        if arguments.include?(val)
-        array << arr 
+        if arguments.include?(v)
+        array << k 
         end 
       end 
         
